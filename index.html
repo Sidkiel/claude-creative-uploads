@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Claude Creative Uploads</title>
+<style>
+  body{font-family:Georgia,serif;max-width:720px;margin:40px auto;padding:0 20px;line-height:1.55;color:#222}
+  h1{font-size:1.9em;margin-bottom:0.2em} h2{font-size:1.2em;margin-top:1.6em}
+  code{background:#f3f3f3;padding:1px 5px;border-radius:3px}
+  a{color:#0b57d0}
+</style>
+</head>
+<body>
+<h1>Claude Creative Uploads</h1>
+<p>A private, single-user command-line tool that uploads finished videos to two YouTube channels owned by Ionut Paulet:
+<a href="https://www.youtube.com/@SidFM">SidFM</a> and <a href="https://www.youtube.com/@PastForwardChannel">Past Forward</a>.</p>
+
+<h2>What it does</h2>
+<ul>
+  <li>Uploads a rendered video file from the owner's computer to one of the two channels above.</li>
+  <li>Sets the video's title, description, tags, category, thumbnail, audience setting, AI-content disclosure and scheduled publish time.</li>
+  <li>Reads back the owner's own channel and video metadata to confirm the upload succeeded.</li>
+</ul>
+
+<h2>What it does not do</h2>
+<ul>
+  <li>It is not distributed, sold or offered to anyone else. There is no sign-up and no website login; the only user is the channel owner.</li>
+  <li>It does not read, display or store any data about YouTube viewers, subscribers, commenters or other channels.</li>
+  <li>It does not run in the background; each upload is started by hand.</li>
+</ul>
+
+<h2>Technology</h2>
+<p>A Python script using the YouTube Data API v3 (<code>youtube.upload</code> and <code>youtube.readonly</code> scopes) through Google OAuth 2.0, running on the owner's Windows PC. Google Cloud project <code>claude-creative-uploads</code>.</p>
+
+<h2>Contact</h2>
+<p>Ionut Paulet, <a href="mailto:ionut.paulet@gmail.com">ionut.paulet@gmail.com</a></p>
+<p><a href="privacy.html">Privacy policy</a></p>
+</body>
+</html>
